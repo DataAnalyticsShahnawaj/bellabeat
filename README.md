@@ -38,3 +38,10 @@ We will produce a report with the following deliverables:
 4. A summary of your analysis
 5. Supporting visualizations and key findings
 6. Your top high-level content recommendations based on your analysis
+
+## Prepare_Phase
+================
+
+Due to lack of inhouse data we explore public data sets and come across public data that explores smart device users’ daily habits.
+
+* FitBit Fitness Tracker Data (CC0: Public Domain, dataset made available through Mobius): This Kaggle [data set](https://www.kaggle.com/arashnic/fitbit) contains personal fitness tracker from thirty fitbit users. Thirty eligible Fitbit users consented to the submission of personal tracker data, including minute-level output for physical activity, heart rate, and sleep monitoring. It includes information about daily activity, steps, and heart rate that can be used to explore users’ habits.
