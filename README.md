@@ -45,3 +45,17 @@ We will produce a report with the following deliverables:
 Due to lack of inhouse data we explore public data sets and come across public data that explores smart device users’ daily habits.
 
 * FitBit Fitness Tracker Data (CC0: Public Domain, dataset made available through Mobius): This Kaggle [data set](https://www.kaggle.com/arashnic/fitbit) contains personal fitness tracker from thirty fitbit users. Thirty eligible Fitbit users consented to the submission of personal tracker data, including minute-level output for physical activity, heart rate, and sleep monitoring. It includes information about daily activity, steps, and heart rate that can be used to explore users’ habits.
+
+## Process_Phase
+================
+
+1. Download the dailyActivity_merged zip file and unzip the file.
+2. Uplaod the file to google sheets.
+3. Make a copy of the sheet and rename it as DailyActivity_Process.
+4. Checking for Empty cell the sheet.
+   Select the range > Format > Conditional formating > Isempty 
+5. Remove duplicate rows
+   Go to Data>Data Cleanup>Remove duplicate>Data has header row
+6. Making the ActivityDate Column consistant.
+   Select the ActivityDate Column > Format > Number > Date
+7. Now, Download the file as DailyActivity_Process - dailyActivity_merged file and upload to the drive.
