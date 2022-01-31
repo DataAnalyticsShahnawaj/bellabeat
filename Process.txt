@@ -1,0 +1,13 @@
+## Process_Phase
+================
+
+1. Download the dailyActivity_merged zip file and unzip the file.
+2. Uplaod the file to google sheets.
+3. Make a copy of the sheet and rename it as DailyActivity_Process.
+4. Checking for Empty cell the sheet.
+   Select the range > Format > Conditional formating > Isempty 
+5. Remove duplicate rows
+   Go to Data>Data Cleanup>Remove duplicate>Data has header row
+6. Making the ActivityDate Column consistant.
+   Select the ActivityDate Column > Format > Number > Date
+7. Now, Download the file as DailyActivity_Process - dailyActivity_merged file and upload to the drive.
