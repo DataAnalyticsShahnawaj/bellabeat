@@ -1,0 +1,22 @@
+1. Open the DailyActivity_Process - dailyActivity_merged file from the Processed Phase.
+2. Make a copy of the sheet and rename it as DailyActivity_Analyze.
+3. Conduct descriptive analysis.
+4. Create a pivot table to quickly calculate and visualize the data. 
+Options:
+
+	* Calculate the TotalSteps withrespect to Weekday. 
+	Try rows = Weekday; Values = TotalSteps(Average).
+
+	* Calculate type of ActiveDistance withrespect to Weekday. 
+	Try rows = Weekday; Values = VeryActiveDistance(Average), ModeratelyActiveDistance(Average), LightActiveDistance(Average).
+
+	* Calculate type of ActiveMinutes withrespect to Weekday. 
+	Try rows = Weekday; Values = VeryActiveMinutes(Average), FairlyActiveMinutes(Average), LightlyActiveMinutes(Average).
+
+	* Calculate type of ActiveMinutes withrespect to Weekday 7 Only. 
+	Try rows = Weekday; Values = VeryActiveMinutes(Average), FairlyActiveMinutes(Average), LightlyActiveMinutes(Average). Filters = 7
+
+	* Calculate type of ActiveMinutes withrespect to Weekday 3 Only. 
+	Try rows = Weekday; Values = VeryActiveMinutes(Average), FairlyActiveMinutes(Average), LightlyActiveMinutes(Average); Filters = 3
+
+5. Save the sheet as DailyActivity_Analyze in the drive.
