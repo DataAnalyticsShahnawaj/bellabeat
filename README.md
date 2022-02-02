@@ -46,7 +46,7 @@ Due to lack of inhouse data we explore public data sets and come across public d
 
 * FitBit Fitness Tracker Data (CC0: Public Domain, dataset made available through Mobius): This Kaggle [data set](https://www.kaggle.com/arashnic/fitbit) contains personal fitness tracker from thirty fitbit users. Thirty eligible Fitbit users consented to the submission of personal tracker data, including minute-level output for physical activity, heart rate, and sleep monitoring. It includes information about daily activity, steps, and heart rate that can be used to explore users’ habits.
 
-## Process_Phase
+## Analyze_Phase
 ================
 
 1. Download the dailyActivity_merged zip file and unzip the file.
@@ -59,3 +59,26 @@ Due to lack of inhouse data we explore public data sets and come across public d
 6. Making the ActivityDate Column consistant.
    Select the ActivityDate Column > Format > Number > Date
 7. Now, Download the file as DailyActivity_Process - dailyActivity_merged file and upload to the drive.
+
+1. Open the DailyActivity_Process - dailyActivity_merged file from the Processed Phase.
+2. Make a copy of the sheet and rename it as DailyActivity_Analyze.
+3. Conduct descriptive analysis.
+4. Create a pivot table to quickly calculate and visualize the data. 
+Options:
+
+	* Calculate the TotalSteps withrespect to Weekday. 
+	Try rows = Weekday; Values = TotalSteps(Average).
+
+	* Calculate type of ActiveDistance withrespect to Weekday. 
+	Try rows = Weekday; Values = VeryActiveDistance(Average), ModeratelyActiveDistance(Average), LightActiveDistance(Average).
+
+	* Calculate type of ActiveMinutes withrespect to Weekday. 
+	Try rows = Weekday; Values = VeryActiveMinutes(Average), FairlyActiveMinutes(Average), LightlyActiveMinutes(Average).
+
+	* Calculate type of ActiveMinutes withrespect to Weekday 7 Only. 
+	Try rows = Weekday; Values = VeryActiveMinutes(Average), FairlyActiveMinutes(Average), LightlyActiveMinutes(Average). Filters = 7
+
+	* Calculate type of ActiveMinutes withrespect to Weekday 3 Only. 
+	Try rows = Weekday; Values = VeryActiveMinutes(Average), FairlyActiveMinutes(Average), LightlyActiveMinutes(Average); Filters = 3
+
+5. Save the sheet as DailyActivity_Analyze in the drive.
